@@ -3,3 +3,7 @@ ConcreteHandlerA, ConcreteHandlerB, and ConcreteHandlerC are concrete handlers t
 Request is a simple class representing a request, and RequestType is an enum defining the types of requests.
 The client sets up the chain of handlers, creates requests, and initiates the request handling process.
 The Chain of Responsibility pattern allows you to add or remove handlers dynamically, change the order of handlers, and easily extend the system with new handlers without modifying the client code. It promotes loose coupling between components.
+
+
+enum is a short form of enumeration, is a special data type in Java that represents a fixed set of constant values.
+
