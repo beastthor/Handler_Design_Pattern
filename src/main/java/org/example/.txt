@@ -1,0 +1,5 @@
+Handler is the handler interface that defines the handleRequest() method and maintains a reference to the next handler.
+ConcreteHandlerA, ConcreteHandlerB, and ConcreteHandlerC are concrete handlers that handle requests based on their types. If a handler can't handle the request, it passes it to the next handler in the chain.
+Request is a simple class representing a request, and RequestType is an enum defining the types of requests.
+The client sets up the chain of handlers, creates requests, and initiates the request handling process.
+The Chain of Responsibility pattern allows you to add or remove handlers dynamically, change the order of handlers, and easily extend the system with new handlers without modifying the client code. It promotes loose coupling between components.
